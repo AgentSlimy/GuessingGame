@@ -1,3 +1,8 @@
+//This code is a simple game where the user tries to guess a random computer generated number
+//Author: Nathan Zou
+//Date: 9/26/2021
+
+//CPP Libraries
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
@@ -48,8 +53,7 @@ int main() {
       }
       else {//Game end
 	running = false;
-      }
-      
+      }      
     }
   }
 }
